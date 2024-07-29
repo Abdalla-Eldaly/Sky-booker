@@ -13,7 +13,7 @@ class MainTextField extends StatefulWidget {
     this.focusNode,
     this.nextFocus,
     this.label,
-    required this.hint,
+     this.hint,
     this.isObscured = false,
     this.iconData,
     this.textInputType = TextInputType.text,
@@ -32,7 +32,7 @@ class MainTextField extends StatefulWidget {
   final bool isObscured;
   final String? label;
   final Widget? prefixIcon;
-  final String hint;
+  final String? hint;
   final TextInputType textInputType;
   final IconData? iconData;
   final Color? backgroundColor;
@@ -59,9 +59,9 @@ class _MainTextFieldState extends State<MainTextField> {
           padding: const EdgeInsets.symmetric(horizontal: AppPadding.p14),
           height: AppSize.s50,
           decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(AppSize.s24),
-              border: Border.all(
-                  color: ColorManager.primary, width: AppSize.s1)),
+              borderRadius: BorderRadius.circular(AppSize.s15),
+            color: ColorManager.white
+          ),
 
           clipBehavior: Clip.antiAliasWithSaveLayer,
           child: TextFormField(
@@ -121,6 +121,7 @@ class _MainTextFieldState extends State<MainTextField> {
               hintStyle: widget.hintTextStyle ??
                   AppTextStyles.hintTextStyle(context),
               border: InputBorder.none,
+              focusedBorder: InputBorder.none,
               enabledBorder: InputBorder.none,
               errorStyle: const TextStyle(
                 fontSize: AppSize.s0,

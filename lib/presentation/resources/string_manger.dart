@@ -10,9 +10,13 @@ class AppStrings {
 
 
   // home screen
-    static const homeSearch = "what do you search for?";
-    static const egyptionCoin = "EGP";
-    static const review = "review";
+    static const homeTab1 = "Return";
+    static const homeTab2 = "One way";
+    static const homeTab3 = "Multi-city";
+    static const flightFrom = "Flight from";
+    static const flightTo = "Flight to";
+
+
 
 
   //error handler

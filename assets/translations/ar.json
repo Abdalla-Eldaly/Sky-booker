@@ -1,0 +1,72 @@
+{
+  "noRouteFound": "المسار غير موجود",
+  "retryAgain": "حاول مرة أخري",
+  "success": "تم بنجاح",
+  "badRequestError": "طلب خاطئ",
+  "noContent": "لا يوجد محتوي",
+  "forbiddenError": "غير مسموح",
+  "unauthorizedError": "غير مصرح",
+  "notFoundError": "غير موجود",
+  "conflictError": "محتوي متضارب",
+  "internalServerError": "خطأ في السيرفر الداخلي",
+  "unknownError": "خطأ غير معروف",
+  "timeoutError": "انهت مدة الأتصال",
+  "defaultError": "خطأ",
+  "cacheError": "خطأ في التخزين",
+  "noInternetError": "لا يوجد أنترنت",
+  "emailAlreadyExists": "هذا الحساب مسجل بالفعل",
+  "loginFailed": "بريد الكتروني او كلمة مرور غير صحيحة",
+  "emptyContent": "لا يوجد محتوي",
+  "intentError": "لا يوجد محتوي",
+
+  "areYouSure": "هل أنت متأكد؟",
+  "sure": "نعم",
+  "cancel": "لا",
+  "validationsFieldRequired": "هذا الحقل مطلوب",
+  "validationsArabicAndEnglishLetters": "استعمل حروف فقط",
+  "validationsNumbersOnly": "استعمل أرقام فقط",
+  "validationsValidEmail": "أدخل بريد ألكتروني صحيح",
+  "validationsNumbersMustEqual11Digit": "يرجي كتابة 11 رقما",
+  "validationsPasswordSpecifications": "- يجب أن يتكون من 8 احرف او اكتر\n- يجب أن يحتوي علي حروف و أرقام",
+  "validationsEnterTheSamePassword": "يرجي كتابة نفس كلمة المرور",
+
+  "selectionScreenLoginButton": "تسجيل الدخول",
+  "selectionScreenRegisterButton": "انشاء حساب",
+  "selectionScreenLanguageButton": "العربية",
+
+  "loginScreenEmailLabel": "البريد الألكتروني",
+  "loginScreenPasswordLabel": "كلمة السر",
+  "loginScreenLoginButton": "تسجيل الدخول",
+  "loginScreenSuccessMessage": "تم تسجيل الدخول بنجاح",
+
+  "registerNamePageTitle": "أكتب\nأسمك",
+  "registerNamePageFirstNameLabel": "الأسم الأول",
+  "registerNamePageLastNameLabel": "الأسم الأخير",
+  "registerNamePageButton": "التالي",
+
+  "registerDetailsPageTitle": "معلومات\nعنك",
+  "registerDetailsPageMale": "ذكر",
+  "registerDetailsPageFemale": "أنثي",
+  "registerDetailsPageAgeLabel": "السن",
+  "registerDetailsPageButton": "التالي",
+
+  "registerContactPageTitle": "معلومات\nالتواصل",
+  "registerContactPageEmailLabel": "البريد الألكتروني",
+  "registerContactPagePhoneNumberLabel": "رقم الهاتف",
+  "registerContactPageButton": "التالي",
+
+  "registerJobPageTitle": "اختار\nوظيفتك",
+  "registerJobPageJobLabel": "الوظيفة",
+  "registerJobPageDialogTitle": "الوظائف",
+  "registerJobPageButton": "التالي",
+
+  "registerPasswordPageTitle": "انشئ\nكلمة مرور",
+  "registerPasswordPagePasswordLabel": "كلمة المرور",
+  "registerPasswordPageConfirmPasswordLabel": "تأكيد كلمة المرور",
+  "registerPasswordPageButton": "أنشاء حساب",
+
+  "registerLayoutSuccessMessage": "تم التسجيل بنجاح",
+
+  "soonScreenTitle": "انتظرونا قريباً",
+  "soonScreenLogOut": "تسجيل الخروج"
+}

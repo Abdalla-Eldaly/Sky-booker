@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sky_booker/presentation/favourite_screen/view/favourite_view.dart';
 import 'package:sky_booker/presentation/profile_screen/view/profile_view.dart';
 
-import '../../home_screen/view/home_viewModel.dart';
+import '../../home_screen/view/home_view.dart';
 
 class MainLayoutViewModel extends ChangeNotifier {
   int _selectedIndex = 0;

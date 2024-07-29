@@ -50,6 +50,7 @@ dependencies:
   flutter_svg:
   cached_network_image:
   mockito:
+  easy_localization: ^3.0.7
 
 dev_dependencies:
   flutter_test:

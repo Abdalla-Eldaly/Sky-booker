@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../presentation/resources/routes_manger.dart';
+import '../presentation/resources/theme_manger.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -8,10 +10,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: Routes.mainLayOutRoute,
       onGenerateRoute: RouteGenerator.getRoute,
+      theme: getApplicationTheme(),
+      localizationsDelegates: context.localizationDelegates,
+
     );
   }
 }
