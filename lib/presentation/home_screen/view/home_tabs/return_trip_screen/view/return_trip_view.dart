@@ -30,7 +30,7 @@ class ReturnTripScreen extends StatelessWidget {
                       children: [
                         const Column(
                           children: [
-                            MainTextField(hint: AppStrings.flightFrom,prefixIcon: Icon(Icons.flight_takeoff_outlined,size: AppSize.s25,),),
+                            MainTextField(readOnly: true,hint: AppStrings.flightFrom,prefixIcon: Icon(Icons.flight_takeoff_outlined,size: AppSize.s25,),),
                             SizedBox(height: AppSize.s5,),
                             MainTextField(hint: AppStrings.flightTo,prefixIcon: Icon(Icons.flight_land_outlined,size: AppSize.s25,),),
                           ],

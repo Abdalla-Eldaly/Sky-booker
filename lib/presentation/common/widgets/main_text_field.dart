@@ -21,7 +21,7 @@ class MainTextField extends StatefulWidget {
     this.hintTextStyle,
     this.labelTextStyle,
     this.cursorColor = ColorManager.white,
-    this.readOnly = false,
+    this.readOnly ,
     this.validation,
     this.onTap, this.maxLines, this.prefixIcon, this.onChanged,
   });
@@ -39,7 +39,7 @@ class MainTextField extends StatefulWidget {
   final TextStyle? hintTextStyle;
   final TextStyle? labelTextStyle;
   final Color cursorColor;
-  final bool readOnly;
+  final bool? readOnly;
   final int? maxLines;
   final String? Function(String?)? validation;
   final void Function()? onTap;
@@ -69,7 +69,7 @@ class _MainTextFieldState extends State<MainTextField> {
             maxLines: widget.maxLines,
             controller: widget.controller,
             focusNode: widget.focusNode,
-            readOnly: widget.readOnly,
+            readOnly: widget.readOnly!,
             style: widget.hintTextStyle ??
                 AppTextStyles.hintTextStyle(context),
             obscureText: hidden,

@@ -16,7 +16,6 @@ class RouteGenerator {
   static Route<dynamic> getRoute(RouteSettings settings) {
     switch (settings.name) {
       case Routes.mainLayOutRoute:
-        intiHomeUseCase();
         return MaterialPageRoute(builder: (_) =>  const MainLayOut());
 
 
