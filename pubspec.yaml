@@ -113,7 +113,7 @@ flutter:
           weight: 400
         - asset: assets/fonts/english/Rubik-Light.ttf
           weight: 300
-    - family: Arabic
+    - family: NotoSansArabic
       fonts:
         - asset: assets/fonts/arabic/NotoSansArabic-Black.ttf
           weight: 900

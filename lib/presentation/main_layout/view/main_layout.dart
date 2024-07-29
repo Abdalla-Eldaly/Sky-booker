@@ -1,11 +1,9 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import 'package:sky_booker/presentation/main_layout/viewmodel/main_layout_viewmodel.dart';
 import 'package:sky_booker/presentation/resources/assets_manger.dart';
 import 'package:sky_booker/presentation/resources/color_manager.dart';
-import 'package:sky_booker/presentation/resources/string_manger.dart';
 import 'package:sky_booker/presentation/resources/value_manger.dart';
 
 class MainLayOut extends StatelessWidget {
@@ -32,7 +30,7 @@ class MainLayOut extends StatelessWidget {
                 ),
                 BottomNavigationBarItem(
                   icon: _buildIcon(SVGAssets.profileIcon, viewModel.selectedIndex == 2),
-                  label: AppStrings.phoneNumberAlreadyExistsError.tr(),
+                  label: 'Profile',
                 ),
               ],
               currentIndex: viewModel.selectedIndex,
