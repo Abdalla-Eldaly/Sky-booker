@@ -12,7 +12,7 @@ class ColorManager {
 
 
 
-  static const Color black = Color(0xff101719);
+  static const Color black = Color(0xff000000);
   static const Color error = Color(0xFFD70B0B);
 
   static const Color transparent = Colors.transparent;

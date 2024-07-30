@@ -17,6 +17,18 @@ class AppStrings {
     static const flightTo = "Flight to";
 
 
+    // dialog
+  static const whereTo = "whereTo";
+  static const whereFrom = "whereFrom";
+  static const searchHint = "searchHint";
+  static const to = "to";
+  static const from = "from";
+  static const recentPlaces = "recentPlaces";
+  static const suggestedPlaces = "suggestedPlaces";
+
+
+
+
 
 
   //error handler

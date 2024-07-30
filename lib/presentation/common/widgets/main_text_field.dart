@@ -56,7 +56,7 @@ class _MainTextFieldState extends State<MainTextField> {
   Widget build(BuildContext context) {
     return
         Container(
-          padding: const EdgeInsets.symmetric(horizontal: AppPadding.p14),
+          padding: const EdgeInsets.symmetric(horizontal: AppPadding.p4),
           height: AppSize.s50,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(AppSize.s15),
@@ -71,7 +71,7 @@ class _MainTextFieldState extends State<MainTextField> {
             focusNode: widget.focusNode,
             readOnly: widget.readOnly,
             style: widget.hintTextStyle ??
-                AppTextStyles.hintTextFieldTextStyle(context),
+                AppTextStyles.textFieldTextStyle(context),
             obscureText: hidden,
             keyboardType: widget.textInputType,
             obscuringCharacter: '*',

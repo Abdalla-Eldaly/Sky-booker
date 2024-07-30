@@ -50,7 +50,9 @@ dependencies:
   flutter_svg:
   cached_network_image:
   mockito:
+  shimmer:
   easy_localization: ^3.0.7
+  shared_preferences: ^2.2.3
 
 dev_dependencies:
   flutter_test:
